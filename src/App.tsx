@@ -255,7 +255,7 @@ function App() {
       {/* Sidebar */}
       <div className={`fixed inset-y-0 left-0 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} w-64 bg-[#1A1A1A] text-white transition-transform duration-200 ease-in-out z-30`}>
         <div className="flex items-center justify-between p-4 border-b border-[#2A2A2A]">
-          <h1 className="text-xl font-bold">PJT2</h1>
+          <h1 className="text-xl font-bold">SereneAI</h1>
           <button
             onClick={() => setIsSidebarOpen(false)}
             className="p-1 hover:bg-[#2A2A2A] rounded"

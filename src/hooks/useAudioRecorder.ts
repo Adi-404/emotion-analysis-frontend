@@ -93,7 +93,9 @@ export const useAudioRecorder = () => {
         }
       };
 
-      mediaRecorderRef.current.stop();
+      if (mediaRecorderRef.current) {
+        mediaRecorderRef.current.stop();
+      }
     });
   };
 
